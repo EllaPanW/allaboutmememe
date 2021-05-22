@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        background: rgb(104, 242, 255);
+        font-family: "Rubik", sans-serif;
+        /* font-family: 'Caveat', cursive; */
+        line-height: 1.5;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        padding: 5px;
+      }
+      .cursiveTitle {
+        font-family: "Caveat", cursive;
+        text-align: center;
+        font-size: 400%;
+        color: black;
+        /* background-color: black; */
+        background-image: url("./Screenshot\ 2021-05-15\ 160546.jpg");
+      }
+
+      p {
+        padding: 5px;
+        text-align: justify;
+      }
+      .container {
+        margin: auto;
+        max-width: 700px;
+        text-align: left;
+      }
+
+      .center {
+        padding: 5px 0;
+        /* border: 1px solid green; */
+        text-align: center;
+      }
+      .imgClass {
+        width: 400px;
+        border-radius: 20px;
+        opacity: 0.4;
+        filter: grayscale(100%);
+      }
+      .imgClass:hover {
+        opacity: 1;
+        filter: none;
+        width: 600px;
+      }
+      #specialPicture {
+        opacity: 1;
+        filter: none;
+      }
+      .paddingVeryBottom {
+        padding-bottom: 60px;
+      }
+      .paddingVeryTop {
+        padding-top: 100px;
+      }
+      .btn1 {
+        padding: 15px;
+        margin: 15px;
+        /* font-size: abcdefgh; */
+        background-color: var(--google-green);
+        color: var(--google-yellow);
+      }
+      .btn1:hover {
+        color: var(--google-red);
+        cursor: pointer;
+      }
+
+      .Banner {
+        text-align: center;
+        color: rgb(255, 152, 152);
+        font-size: 10em;
+      }
+
+      .NavLinks {
+        font-weight: bold;
+        text-align: center;
+        /* padding: 10px; */
+        padding-top: 3px;
+        padding-bottom: 2px;
+        text-decoration: none;
+        /* background-color: tomato; */
+        background-color: rgb(255, 152, 152);
+
+        cursor: crosshair;
+      }
+      .NavLinks:hover {
+        background-color: rgb(255, 255, 110);
+        font-size:150%;
+      }
+      .CapePenguin {
+        background-color: rgb(255, 255, 110);
+      }
+      .FamilyActivities {
+        background-color: rgb(255, 255, 110);
+      }
+      .CommunityServices {
+        background-color: rgb(255, 255, 110);
+      }
+      .FlexBox {
+        margin-top: 50px;
+        display: flex;
+        /* flex-direction: column; */
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgb(255, 152, 152);
+      }
+      .FlexItem {
+        flex-basis: auto;
+      }
+      #CapPenguin：hover {
+          font-size:150%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 class="cursiv eTitle">Endagered Ocean Animals and How We Can Help</h1>
+    </div>
+    <div class="FlexBox">
+      <!-- Fix links # -->
+      <div class="FlexItem">
+        <a class="NavLinks" href="#Home">Home</a>
+      </div>
+      <div class="FlexItem">
+        <a id='Cape Penguin' class="NavLinks" href="#Cape Penguin">Cape Penguin</a>
+      </div>
+      <div class="FlexItem">
+        <a class="NavLinks" href="#Coral Reefs">Coral Reefs </a>
+      </div>
+      <div class="FlexItem">
+        <a class="NavLinks" href="#Gray Whale">Gray Whale</a>
+      </div>
+      <div class="FlexItem">
+        <a class="NavLinks" href="publications.html">Publications</a>
+      </div>
+    </div>
+      <h1 class="CapePenguin" id="CapePenguin">Cape Penguin</h1>
+       <h1 class="Coral Reefs" id="Coral Reefs">Coral Reefs</h1>
+      <h1 class="Gray Whale" id="Gray Whale">Gray Whale</h1>
+      <p class="paddingVeryBottom">
+      </p>
+    </div>
+  </body>
+</html>
